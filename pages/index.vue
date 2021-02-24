@@ -28,7 +28,6 @@
 @apply min-h-screen flex justify-center items-center text-center mx-auto;
 }
 */
-  @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
   .container {
     margin: 0 auto;

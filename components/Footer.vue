@@ -1,8 +1,8 @@
 <template>
   <div class="general-footer-styles text-white">
-    <div class="grid grid-cols-2 sm:mx-4">
+    <div class="grid grid-cols-2 sm:mx-4 sm:pt-10">
       <div class="">
-        <svg class="custom-svg-color sm:mt-6 sm:mb-4" viewBox="0 0 369 53" xmlns="http://www.w3.org/2000/svg" width="220" height="35">
+        <svg class="custom-svg-color sm:mb-4" viewBox="0 0 369 53" xmlns="http://www.w3.org/2000/svg" width="220" height="35">
           <path d="M95.1,11.2h8.1L93,44.4h-9l-5.7-22.3l-5.8,22.3h-9L53.3,11.2h8.5L68,36.4l6.1-25.3H83l6,25.2L95.1,11.2z"></path>
           <path
                 d="m108.2 40.1c-3.2-3.2-4.9-7.3-4.9-12.4s1.6-9.2 4.9-12.4c3.3-3.1 7.4-4.7 12.2-4.7s8.9 1.6 12.2 4.7 4.9 7.2 4.9 12.4c0 5.1-1.6 9.3-5 12.4-3.3 3.2-7.4 4.7-12.3 4.7-4.7 0.1-8.7-1.5-12-4.7zm12.2-2.4c2.4 0 4.4-0.9 6.1-2.6s2.5-4.2 2.5-7.4-0.8-5.6-2.5-7.3-3.7-2.6-6.1-2.6-4.4 0.9-6 2.6-2.5 4.2-2.5 7.4 0.8 5.7 2.5 7.4c1.6 1.7 3.6 2.5 6 2.5z">
@@ -39,7 +39,9 @@
             <font-awesome-icon :icon="['far', 'envelope']" class="mr-3 -ml-0.5" />Fax: (099) 453-1357</div>
         </div>
       </div>
-      <div class="">2</div>
+      <div class="">
+        <h5 class="text-white yantramanav-font text-base">Recent Posts</h5>
+      </div>
     </div>
   </div>
 </template>
@@ -63,6 +65,10 @@
 
   .custom-svg-color {
     fill: white;
+  }
+
+  .yantramanav-font {
+    font-family: 'Yantramanav', sans-serif;
   }
 
 </style>
