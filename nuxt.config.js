@@ -30,6 +30,14 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    [
+      '@nuxtjs/fontawesome', {
+        icons: {        
+          solid: ['faMobileAlt', 'faLocationArrow', ],
+          regular: ['faEnvelope', ],
+        }
+      }
+    ]
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
