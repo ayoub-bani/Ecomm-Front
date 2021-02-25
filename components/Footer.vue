@@ -1,5 +1,5 @@
 <template>
-  <div class="general-footer-styles text-white">
+  <div class="general-footer-styles inter-font text-white">
     <div class="grid grid-cols-2 sm:mx-4 sm:pt-10">
       <div class="">
         <svg class="custom-svg-color sm:mb-4" viewBox="0 0 369 53" xmlns="http://www.w3.org/2000/svg" width="220" height="35">
@@ -41,6 +41,32 @@
       </div>
       <div class="">
         <h5 class="text-white yantramanav-font text-base">Recent Posts</h5>
+        <!-- Post start -->
+        <div class="">
+          <div class="flex sm:mt-5">
+            <!-- images post -->
+            <div class="sm:mr-4">
+              <img src="@/assets/images/posts/blog-12.jpg" alt="bed room">
+            </div>
+            <!-- title & info -->
+            <div class="">
+              <p class="text-white yantramanav-font text-sm sm:mb-3">A companion for extra sleeping</p>
+              <p class="inter-font text-xs">July 23, 2016 1 Comment</p>
+            </div>
+          </div>
+          <div class="border-t border-solid border-gray-500 mt-4"></div>
+          <div class="flex sm:mt-5">
+            <!-- images post -->
+            <div class="sm:mr-4">
+              <img src="@/assets/images/posts/blog-11.jpg" alt="the kitchen">
+            </div>
+            <!-- title & info -->
+            <div class="">
+              <p class="text-white yantramanav-font text-sm sm:mb-3">Outdoor seating collection inspiration</p>
+              <p class="inter-font text-xs">July 23, 2016 1 Comment</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -58,17 +84,12 @@
   .general-footer-styles {
     height: 60vh;
     background-color: #373839;
-    font-family: 'Inter', sans-serif;
     font-size: 14px;
     color: rgba(255, 255, 255, .8);
   }
 
   .custom-svg-color {
     fill: white;
-  }
-
-  .yantramanav-font {
-    font-family: 'Yantramanav', sans-serif;
   }
 
 </style>
