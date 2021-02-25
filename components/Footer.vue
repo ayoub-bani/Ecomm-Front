@@ -1,6 +1,6 @@
 <template>
   <div class="general-footer-styles inter-font text-white">
-    <div class="grid grid-cols-2 sm:mx-4 sm:pt-10">
+    <div class="grid grid-cols-2 gap-8 sm:mx-4 sm:pt-10">
       <div class="">
         <svg class="custom-svg-color sm:mb-4" viewBox="0 0 369 53" xmlns="http://www.w3.org/2000/svg" width="220" height="35">
           <path d="M95.1,11.2h8.1L93,44.4h-9l-5.7-22.3l-5.8,22.3h-9L53.3,11.2h8.5L68,36.4l6.1-25.3H83l6,25.2L95.1,11.2z"></path>
@@ -54,7 +54,7 @@
               <p class="inter-font text-xs">July 23, 2016 1 Comment</p>
             </div>
           </div>
-          <div class="border-t border-solid border-gray-500 mt-4"></div>
+          <div class="border-t border-solid border-gray-500 my-5"></div>
           <div class="flex sm:mt-5">
             <!-- images post -->
             <div class="sm:mr-4">
@@ -63,10 +63,44 @@
             <!-- title & info -->
             <div class="">
               <p class="text-white yantramanav-font text-sm sm:mb-3">Outdoor seating collection inspiration</p>
-              <p class="inter-font text-xs">July 23, 2016 1 Comment</p>
+              <p class="inter-font text-xs sm:-mt-1">July 23, 2016 1 Comment</p>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="grid grid-cols-3 gap-3 sm:mx-4 sm:mt-9">
+      <div class="">
+        <h5 class="text-white yantramanav-font text-base sm:mb-5">Our Stores</h5>
+        <ul class="text-sm inter-font">
+          <li>New York</li>
+          <li>London SF</li>
+          <li>Cockfosters BP</li>
+          <li>Los Angeles</li>
+          <li>Chicago</li>
+          <li>Las Vegas</li>
+        </ul>
+      </div>
+      <div class="">
+        <h5 class="text-white yantramanav-font text-base sm:mb-5">Useful Links</h5>
+        <ul class="text-sm inter-font">
+          <li>Privacy Policy</li>
+          <li>Returns</li>
+          <li>Terms & Conditions</li>
+          <li>Contact Us</li>
+          <li>Latest News</li>
+          <li>Our Sitemap</li>
+        </ul>
+      </div>
+      <div class="">
+        <h5 class="text-white yantramanav-font text-base sm:mb-5">Footer Menu</h5>
+        <ul class="text-sm inter-font gap-y-3">
+          <li>Instagram profile</li>
+          <li>New Collection</li>
+          <li>Woman Dress</li>
+          <li>Contact Us</li>
+          <li>Latest News</li>
+        </ul>
       </div>
     </div>
   </div>
@@ -82,7 +116,6 @@
 <style>
   /* Footer color */
   .general-footer-styles {
-    height: 60vh;
     background-color: #373839;
     font-size: 14px;
     color: rgba(255, 255, 255, .8);
@@ -90,6 +123,11 @@
 
   .custom-svg-color {
     fill: white;
+  }
+
+  ul>li {
+    margin-bottom: 1rem;
+    color: #FFFFFF99;
   }
 
 </style>
