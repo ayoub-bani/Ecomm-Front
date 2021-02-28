@@ -108,7 +108,7 @@
       <div>
         <a href="https://woodmart.xtemos.com/"><strong>WOODMART</strong></a>
         <i class="fa fa-copyright"></i>
-        2021 CREATED BY <a href="http://xtemos.com"><strong><span style="color: #CD3E3E;font-size: 12px">X</span>TEMOS STUDIO</strong></a>
+        2021 CREATED BY <a href="http://xtemos.com"><strong><span style="color: #CD3E3E;font-size: 12px">X</span>Temos STUDIO</strong></a>
         . PREMIUM E-COMMERCE SOLUTIONS.</div>
       <div class="mt-4">
         <img class="m-0" src="//woodmartcdn-cec2.kxcdn.com/wp-content/uploads/2017/01/payments.png" alt="">
