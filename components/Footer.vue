@@ -104,14 +104,15 @@
       </div>
     </div>
     <div class="border-b border-solid border-gray-500"></div>
-    <div class="flex flex-col justify-center content-center">
+    <div class="flex flex-col text-center sm:px-10 footer--size sm:py-5">
       <div>
-        <a href="https://woodmart.xtemos.com/"><strong>WOODMART</strong></a>
+        <a href="https://woodmart.xtemos.com/"><strong class="inter-font footer--wood">WOODMART</strong></a>
         <i class="fa fa-copyright"></i>
         2021 CREATED BY <a href="http://xtemos.com"><strong><span style="color: #CD3E3E;font-size: 12px">X</span>Temos STUDIO</strong></a>
-        . PREMIUM E-commerce SOLUTIONS.</div>
-      <div class="mt-4">
-        <img class="m-0" src="//woodmartcdn-cec2.kxcdn.com/wp-content/uploads/2017/01/payments.png" alt="">
+        . PREMIUM E-commerce SOLUTIONS.
+      </div>
+      <div class="mt-4 justify-center items-center">
+        <img class="text-center mr-0" src="//woodmartcdn-cec2.kxcdn.com/wp-content/uploads/2017/01/payments.png" alt="">
       </div>
     </div>
   </div>
@@ -139,6 +140,15 @@
   ul>li {
     margin-bottom: 1rem;
     color: #FFFFFF99;
+  }
+  .footer--wood {
+    font-weight: 600;
+    font-size: 11px;
+    color: white;
+  }
+
+  .footer--size {
+    font-size: 11px;
   }
 
 </style>
